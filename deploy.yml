@@ -8,7 +8,7 @@
         state: started
 
     - name: pull docker image
-      shell: docker pull sarika476/scientific_calculator
+      shell: docker pull sarika476/scientific_calculator:calc
 
     - name: running container
-      shell: docker run -it -d sarika476/scientific_calculator
+      shell: docker run -it -d sarika476/scientific_calculator:calc
