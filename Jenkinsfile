@@ -50,7 +50,7 @@ pipeline{
     post {
         always {
             echo 'I am done with or without failure'
-            deleteDir()
+            deleteDir() //cleaning
         }
     }
 }
