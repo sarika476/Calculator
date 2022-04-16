@@ -9,6 +9,3 @@
 
     - name: pull docker image
       shell: sudo docker pull sarika476/scientific_calculator
-
-   - name: running container
-     shell: docker run -it -d sarika476/scientific_calculator:calc
