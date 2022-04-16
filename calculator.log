@@ -1,4 +1,10 @@
-2022-04-08 23:35:43.367 [main] INFO  Calculator - [SQ ROOT] - 44
-2022-04-08 23:35:43.412 [main] INFO  Calculator - [RESULT - SQ ROOT] - 6.6332495807108
-2022-04-08 23:35:47.111 [main] INFO  Calculator - [FACTORIAL] - 4
-2022-04-08 23:35:47.120 [main] INFO  Calculator - [RESULT - FACTORIAL] - 24
+2022-04-08 23:35:43.367 [main] INFO  Calculator.Calculator - [SQ ROOT] - 44
+2022-04-08 23:35:43.412 [main] INFO  Calculator.Calculator - [RESULT - SQ ROOT] - 6.6332495807108
+2022-04-08 23:35:47.111 [main] INFO  Calculator.Calculator - [FACTORIAL] - 4
+2022-04-08 23:35:47.120 [main] INFO  Calculator.Calculator - [RESULT - FACTORIAL] - 24
+2022-04-08 23:48:07.912 [main] INFO  Calculator.Calculator - [SQ ROOT] - 7
+2022-04-08 23:48:07.932 [main] INFO  Calculator.Calculator - [RESULT - SQ ROOT] - 2.6457513110645907
+2022-04-08 23:48:12.807 [main] INFO  Calculator.Calculator - [NATURAL LOG] - 78
+2022-04-08 23:48:12.810 [main] INFO  Calculator.Calculator - [RESULT - NATURAL LOG] - 4.356708826689592
+2022-04-08 23:48:18.878 [main] INFO  Calculator.Calculator - [FACTORIAL] - 5
+2022-04-08 23:48:18.907 [main] INFO  Calculator.Calculator - [RESULT - FACTORIAL] - 120

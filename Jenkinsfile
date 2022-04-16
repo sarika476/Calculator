@@ -8,7 +8,7 @@ pipeline{
     stages {
         stage('Clone GitHub Repository') {
             steps {
-                git url: 'https://github.com/sarika476/Calculator.git', branch: 'master',
+                git url: 'https://github.com/sarika476/Calculator.Calculator.git', branch: 'master',
                  credentialsId: 'f3292e40-d005-4e9b-a4b9-8c6eeaff6585'
             }
         }

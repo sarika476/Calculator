@@ -1,8 +1,9 @@
+import Calculator.Calculator;
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class CalculatorTesting {
     Calculator calculator=new Calculator();
-    private static final double DELTA=1e-12;
+    private static final double DELTA=0;
     @Test
     public void sqrtTest()
     {

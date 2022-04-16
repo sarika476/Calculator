@@ -1,3 +1,4 @@
+package Calculator;
 
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
@@ -5,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
-    double getSqrt(int x)
+    public double getSqrt(int x)
     {
         logger.info("[SQ ROOT] - " + x);
         double result = Math.sqrt(x);
@@ -13,7 +14,7 @@ public class Calculator {
         return result;
 
     }
-    long getFact(int x)
+    public long getFact(int x)
     {
         logger.info("[FACTORIAL] - " + x);
         long fact=1;
@@ -24,7 +25,7 @@ public class Calculator {
         logger.info("[RESULT - FACTORIAL] - " + fact);
         return fact;
     }
-    double getLoge(int x)
+    public double getLoge(int x)
     {
         logger.info("[NATURAL LOG] - " + x);
         double result = 0;
@@ -44,7 +45,7 @@ public class Calculator {
         return result;
 
     }
-    double getPow(int x,int y)
+    public double getPow(int x,int y)
     {
         logger.info("[POWER - " + x + " RAISED TO] " + y);
         double result = Math.pow(x,y);
@@ -57,7 +58,7 @@ public class Calculator {
         int choice;
         Calculator calculator=new Calculator();
         do {
-            System.out.println("Scientific Calculator started...");
+            System.out.println("Scientific Calculator.Calculator started...");
             System.out.println("1. Find Square Root");
             System.out.println("2. Find Factorial");
             System.out.println("3. Find Natural Logarithm");
@@ -101,7 +102,7 @@ public class Calculator {
             }
             else
             {
-                System.out.println("Scientific Calculator powered OFF");
+                System.out.println("Scientific Calculator.Calculator powered OFF");
             }
         }while(choice!=0);
     }

@@ -1,5 +1,5 @@
 ---
-- name: Pull docker image of Calculator
+- name: Pull docker image of Calculator.Calculator
   hosts: all
   tasks:
     - name: Start docker service
@@ -8,7 +8,7 @@
         state: started
 
     - name: pull docker image
-      shell: docker pull sarika476/scientific_calculator
+      shell: sudo docker pull sarika476/scientific_calculator
 
-#    - name: running container
-#      shell: docker run -it -d sarika476/scientific_calculator:calc
+   - name: running container
+     shell: docker run -it -d sarika476/scientific_calculator:calc
